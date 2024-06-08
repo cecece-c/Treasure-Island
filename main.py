@@ -1,5 +1,5 @@
 # Display banner
-print("\nWelcome to Tresure Island. Your mission is to find the tresure.")
+print("\nWelcome to Treasure Island. Your mission is to find the treasure.")
 
 
 # First stage
