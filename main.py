@@ -1,3 +1,7 @@
+# Import 'time' library
+import time
+
+
 # Display banner
 print("\nWelcome to Treasure Island. Your mission is to find the treasure.")
 
@@ -54,3 +58,9 @@ def third():
 
 # Run program
 first()
+
+
+# Exit program
+print("\nProgram exiting...")
+for delay in range(5):
+    time.sleep(1)
