@@ -1,2 +1,2 @@
-# Treasure-Island
+# Treasure Island
 Program simulates an adventure game
