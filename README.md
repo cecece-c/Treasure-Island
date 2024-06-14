@@ -1,2 +1,2 @@
 # Treasure-Island
-Program simulates an adventure game.
+Program simulates an adventure game
