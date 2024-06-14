@@ -6,7 +6,7 @@ import time
 print("\nWelcome to Treasure Island. Your mission is to find the treasure.")
 
 
-# First stage
+# Store code for first stage in 'first()' (Function)
 def first():
     while True:
         crossroad = input("\nYou are at a crossroad. Do you want to go left or right (left/right)?\n")
@@ -19,10 +19,10 @@ def first():
             print("\nYou walk down a path that leads you into a dense forest. Unbeknownst to you, there was a mountain lion in the bushes. Out of a sudden, it lunges at you and attacks you. The mountain lion kills you. Game over.")
             break
         else:
-            print("\nInvalid input. Only the listed options are available.")
+            print("\nInvalid input. Only the listed options are accepted.")
 
 
-# Second stage
+# Store code for second stage in 'second()' (Function)
 def second():
     while True:
         river = input("\nDo you want to swim across the river or use a wooden boat to cross the river (swim/boat)?\n")
@@ -35,10 +35,10 @@ def second():
             third()
             break
         else:
-            print("\nInvalid input. Only the listed options are available.")
+            print("\nInvalid input. Only the listed options are accepted.")
 
 
-# Third stage
+# Store code for third stage in 'third()' (Function)
 def third():
     while True:
         door = input("\nYou come across a building in the middle of the forest. The building has 3 doors. The first, the second and the third. Which door do you want to open (first/second/third)?\n")
@@ -53,10 +53,10 @@ def third():
             print("\nYou open the door and accidentally trigger a trap. An arrow is fired at you and it strikes you in your forehead. The shot kills you. Game over.")
             break
         else:
-            print("\nInvalid input. Only the listed options are available.")
+            print("\nInvalid input. Only the listed options are accepted.")
 
 
-# Run program
+# Run 'first()'
 first()
 
 
